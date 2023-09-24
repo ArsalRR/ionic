@@ -1,17 +1,39 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Bioskop Terdekat
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-input label="Masukkan Alamat" label-placement="floating" fill="solid" placeholder="Enter text"></ion-input>
+     <ion-img
+  src="https://statik.tempo.co/data/2019/01/23/id_813830/813830_720.jpg"
+  alt="Pekalongan City"
+style="padding-bottom: 5px;"></ion-img>
+<ion-card color="light" style="padding-top: 20px;">
+  <img alt="Silhouette of mountains" src="https://media.21cineplex.com/webcontent/gallery/pictures/152031789525283_1024x683.jpg" />
+  <ion-card-header class="ion-text-center">
+    <ion-card-title>Paragon Mall</ion-card-title>
+    <ion-card-subtitle>Semarang</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    Here's a small text description for the card content. Nothing more, nothing less.
+  </ion-card-content>
+</ion-card>
+<ion-card color="light" style="padding-top: 20px;">
+  <img alt="Silhouette of mountains" src="https://media.21cineplex.com/webcontent/gallery/pictures/144401961520794_1024x683.jpg" />
+  <ion-card-header class="ion-text-center">
+    <ion-card-title>Ramayana Square</ion-card-title>
+    <ion-card-subtitle>Pekalongan</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    Here's a small text description for the card content. Nothing more, nothing less.
+  </ion-card-content>
+</ion-card>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
 </ion-content>
